@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,a,img,span,h3,map{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align: top;}
+a{ text-decoration:none; color:#FFF;}
+a:hover{ text-decoration:underline;}
+area{ outline: none;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:'.'; height:0; visibility:hidden; clear:both; display:block;}
+body{ font-family:"微软雅黑"; font-size:14px; color:#553434;}
+.layer{ width: 990px; margin: 0 auto;}
+.singleE { white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+
+
+#top{ width: 100%; background: url("../images/bg.jpg") no-repeat center top  #f4e033; border-top: 1px #f56293 solid; padding-bottom: 229px; }
+.bar{ position: relative; background: url("../images/bar-bg.jpg") no-repeat; height: 70px; margin-top: 426px;}
+.bar a{ display: block; position: absolute; width:44px; height: 44px; text-indent: -99em; overflow: hidden;}
+.left{ top: 16px; left: 355px;}
+.right{ top:12px; right: 101px;}
+.pop{ margin-top: 20px;}
+.pop li{ float: left; width: 48px; height: 428px; margin-top: -1px; height: 100%; transition:all 1s; overflow: hidden;}
+.pop .current{ width: 798px; margin-top: 0px;}
+.nav{ position:fixed; top:50%; left:50%; margin-left: 514px; margin-top: -222px; width:119px; height:444px; background:url(../images/nav-bg.png) no-repeat; z-index: 99;}
+.girl{ margin-top:35px;}
+.boy{ margin-top:50px;}
+.nav li{ line-height:26px; height:26px; text-align:center; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.nav span{ display:block; height:26px; line-height:26px; margin-top:4px; text-align:center;}
+.nav span a{ font-size:16px;}
+.Totop{ display:block; width:50px; height:20px; margin:10px 0 0 38px;}
+
+#content{ position: relative; background: #e04ede;}
+#content .store{ position: absolute; top:-229px; background: url("../images/store-bg.jpg") no-repeat; padding-top:277px;}
+#content .store ul {margin-top: 22px; overflow:hidden; width:1000px;}
+.store li{ position: relative; float: left; width: 190px; height: 330px; margin: 0 10px 10px 0;}
+.store a{display: block;}
+.store a div{position: absolute; width: 100%; height: 100%; top:0;left: 0;}
+#content .store .current{ background: url("../images/cover-bg.jpg") no-repeat  center 284px rgba(0,0,0,0.3);}
+#content .ss{ height:749px;}
+
+#jhs h3{ padding:8px 0 11px; height:114px;}
+#jhs h3 img{ margin-left:357px;}
+#jhs ul{ width:999px;}
+#jhs li{ float:left; height:242px; border:#f2b6f1 solid; margin:0 9px 5px 0; background:#FFF;}
+
+.girl-main{ background:url(../images/girl-main-bg.jpg) no-repeat center top; padding-top:151px;}
+.gsmall-tit{ position:relative; background:url(../images/gsmall-tit-bg.jpg) no-repeat; padding-top:40px;}
+.tit{ position:absolute; top:0; left:50%; margin-left:-97px;}
+#casual{ margin-top:19px;}
+#casual ul{ margin:19px 0 44px; width:1000px;}
+.girl-main ul,.boy-main ul{ margin:19px 0 50px; width:1000px;}
+.girl-main li,.boy-main li{ float:left; width:190px; height:355px; margin:0 10px 10px 0;}
+.girl-main li a,.boy-main li a{ display:block;}
+#casual .current,#gentle .current,#office .current{ margin:-2px 0 0 -2px; border:2px #e9d83f solid;}
+#sport .current,#england .current{ margin:-2px -2px 0 0; border:2px #e9d83f solid;}
+.girl-main .current img,.boy-main .current img{ width:188px; height:353px;}
+
+#new-girl h3,#new-boy h3{ background:url(../images/new-bg.png) no-repeat center top; height:76px;}
+#new-girl ul{ margin:27px 0 0 1px; padding-bottom:25px; width:1000px;}
+#new-girl li,#new-boy li{ height:310px;}
+#new-girl .current{ margin:0 -2px -4px 0; border:2px #5c29c4 solid;}
+#new-girl .current img,#new-boy .current img{ width:188px; height:306px;}
+
+#main{ background:#753ac8;}
+#main .store{ background:url(../images/store2-bg.jpg) no-repeat; padding-top:282px;}
+#main .store ul{ margin-top:20px; overflow:hidden; width:1000px;}
+#main .store .current{ background:url(../images/cover2-bg.jpg) no-repeat 9px 284px rgba(0,0,0,0.3);}
+
+#main #jhs h3{ padding-top:20px;}
+#main #jhs ul{ margin-left:-1px;}
+#main #jhs li{ border:#c6aee8; margin-bottom:18px;}
+
+.boy-main{ background:url(../images/boy-main-bg.jpg) no-repeat center top; padding-top:151px;}
+.boy-main .gsmall-tit{ background:url(../images/gsmall-tit2-bg.jpg) no-repeat;}
+#simple{ margin-top:23px;}
+#simple .current,#personal .current,#business .current,#comfort .current{ margin:-2px 0 0 -2px; border:2px #1e5fc3 solid;}
+#comfort ul{ margin-left:-1px;}
+
+#new-boy ul{ padding-bottom:421px;}
+#new-boy .current{ margin:0 -2px -4px 0; border:2px #f4e033 solid;}
+
+
+
+
+
+
+
